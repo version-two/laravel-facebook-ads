@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Facades;
+namespace VersionTwo\LaravelFacebookAds\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

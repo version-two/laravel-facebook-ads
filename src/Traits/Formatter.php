@@ -1,11 +1,11 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Traits;
+namespace VersionTwo\LaravelFacebookAds\Traits;
 
 use FacebookAds\Cursor;
 use Illuminate\Support\Collection;
 use FacebookAds\Object\AbstractObject;
-use Edbizarro\LaravelFacebookAds\Exceptions\MissingEntityFormatter;
+use VersionTwo\LaravelFacebookAds\Exceptions\MissingEntityFormatter;
 
 /**
  * Class Formatter.

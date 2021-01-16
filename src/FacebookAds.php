@@ -1,18 +1,18 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds;
+namespace VersionTwo\LaravelFacebookAds;
 
 use Illuminate\Support\Traits\Macroable;
-use Edbizarro\LaravelFacebookAds\Entities\Campaigns;
-use Edbizarro\LaravelFacebookAds\Entities\AdAccounts;
-use Edbizarro\LaravelFacebookAds\Entities\InstagramAccounts;
+use VersionTwo\LaravelFacebookAds\Entities\Campaigns;
+use VersionTwo\LaravelFacebookAds\Entities\AdAccounts;
+use VersionTwo\LaravelFacebookAds\Entities\InstagramAccounts;
 
 class FacebookAds extends AbstractFacebookAds
 {
     use Macroable;
 
     /**
-     * @param Period $period
+     * @param $period
      * @param $accountId
      * @param string $level [ad, adset, campaign, account]
      * @param array $params
@@ -22,7 +22,7 @@ class FacebookAds extends AbstractFacebookAds
      * @return \Illuminate\Support\Collection
      */
     public function insights(
-        Period $period,
+        $period,
         $accountId,
         $level,
         array $params

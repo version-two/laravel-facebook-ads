@@ -1,8 +1,8 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Contracts;
+namespace VersionTwo\LaravelFacebookAds\Contracts;
 
-use Edbizarro\LaravelFacebookAds\FacebookAds;
+use VersionTwo\LaravelFacebookAds\FacebookAds;
 
 /**
  * Interface LaravelFacebookAdsContract.

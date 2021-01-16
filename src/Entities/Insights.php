@@ -1,10 +1,10 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Entities;
+namespace VersionTwo\LaravelFacebookAds\Entities;
 
 use FacebookAds\Object\AdAccount;
 use Illuminate\Support\Collection;
-use Edbizarro\LaravelFacebookAds\Traits\Formatter;
+use VersionTwo\LaravelFacebookAds\Traits\Formatter;
 
 /**
  * Class Campaigns.
@@ -23,7 +23,7 @@ class Insights
      *
      * @return \FacebookAds\Object\AbstractObject|Collection
      *
-     * @throws \Edbizarro\LaravelFacebookAds\Exceptions\MissingEntityFormatter
+     * @throws \VersionTwo\LaravelFacebookAds\Exceptions\MissingEntityFormatter
      * @see https://developers.facebook.com/docs/marketing-api/reference/ad-account/campaigns
      */
     public function all(array $fields, string $accountId)

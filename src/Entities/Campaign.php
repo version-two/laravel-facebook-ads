@@ -1,8 +1,8 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Entities;
+namespace VersionTwo\LaravelFacebookAds\Entities;
 
-use Edbizarro\LaravelFacebookAds\Traits\Formatter;
+use VersionTwo\LaravelFacebookAds\Traits\Formatter;
 
 class Campaign extends AbstractEntity
 {

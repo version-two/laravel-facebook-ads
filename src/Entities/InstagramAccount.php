@@ -1,9 +1,9 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Entities;
+namespace VersionTwo\LaravelFacebookAds\Entities;
 
 use Illuminate\Support\Collection;
-use Edbizarro\LaravelFacebookAds\Traits\AdFormatter;
+use VersionTwo\LaravelFacebookAds\Traits\AdFormatter;
 
 /**
  * Class AdAccount.
@@ -20,7 +20,7 @@ class InstagramAccount extends AbstractEntity
      * @return Collection
      *
      * @see https://developers.facebook.com/docs/marketing-api/reference/adgroup#Reading
-     * @throws \Edbizarro\LaravelFacebookAds\Exceptions\MissingEntityFormatter
+     * @throws \VersionTwo\LaravelFacebookAds\Exceptions\MissingEntityFormatter
      */
     public function ads(array $fields = []): Collection
     {

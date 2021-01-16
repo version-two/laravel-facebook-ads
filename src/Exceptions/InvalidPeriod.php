@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Exceptions;
+namespace VersionTwo\LaravelFacebookAds\Exceptions;
 
 use DateTime;
 use Exception;

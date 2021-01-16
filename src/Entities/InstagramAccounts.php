@@ -1,10 +1,10 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Entities;
+namespace VersionTwo\LaravelFacebookAds\Entities;
 
 use Illuminate\Support\Collection;
 use FacebookAds\Object\AdAccount as FbAdAccount;
-use Edbizarro\LaravelFacebookAds\Traits\AdAccountFormatter;
+use VersionTwo\LaravelFacebookAds\Traits\AdAccountFormatter;
 
 /**
  * Class AdAccounts.
@@ -21,7 +21,7 @@ class InstagramAccounts
      *
      * @return Collection
      *
-     * @throws \Edbizarro\LaravelFacebookAds\Exceptions\MissingEntityFormatter
+     * @throws \VersionTwo\LaravelFacebookAds\Exceptions\MissingEntityFormatter
      * @see https://developers.facebook.com/docs/marketing-api/guides/instagramads
      */
     public function all(array $fields, string $accountId): Collection
@@ -37,7 +37,7 @@ class InstagramAccounts
      *
      * @return Collection
      *
-     * @throws \Edbizarro\LaravelFacebookAds\Exceptions\MissingEntityFormatter
+     * @throws \VersionTwo\LaravelFacebookAds\Exceptions\MissingEntityFormatter
      * @see https://developers.facebook.com/docs/marketing-api/reference/ad-account
      */
     public function get(array $fields, $accountId)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\LaravelFacebookAds\Entities;
+namespace VersionTwo\LaravelFacebookAds\Entities;
 
 use FacebookAds\Object\AbstractObject;
 use Illuminate\Contracts\Support\Arrayable;
